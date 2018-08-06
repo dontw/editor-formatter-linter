@@ -1,0 +1,22 @@
+{
+  "name": "formatter-linter-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "testing.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dontw/editor-formatter-linter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dontw/editor-formatter-linter/issues"
+  },
+  "homepage": "https://github.com/dontw/editor-formatter-linter#readme",
+  "devDependencies": {
+    "eslint": "^5.3.0"
+  }
+}

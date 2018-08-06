@@ -4,11 +4,20 @@
 <script>
 import { doge, cate, wow } from 'doge';
 
-function hah(params) {
+function hah(params, params2, praams3) {
   console.log(parmas);
+  console.log(parmas2);
+  console.log(params3);
 }
 
-export default { doge };
+const cate = ['haha', 'cate', 'doge', true];
+
+export default {
+  doge,
+  doge2,
+  doge3,
+  doge4,
+};
 </script>
 <style>
 h1 {
