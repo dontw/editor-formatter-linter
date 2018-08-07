@@ -1,0 +1,43 @@
+//巢狀不准超過3層
+.doge {
+  //1
+  .mini-doge {
+    width: 100%;
+    //2
+    .nano-doge {
+      //3
+      .atom-doge {
+        width: 100%;
+        //4
+        .electronic-doge {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+//不可同時疊超過三組class
+.doge.cate.wow.wrong {
+  width: 100%;
+}
+
+//不可疊超過兩組Id
+#shiba-inu {
+  #shoob {
+    width: 100%;
+  }
+}
+
+//不可以單行
+//.dogecate{ width: 100%; height: 100%; color:black;}
+.dogecate {
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+
+//不准用important
+.shiba {
+  width: 100% !important;
+}

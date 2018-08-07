@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dontw/editor-formatter-linter#readme",
   "devDependencies": {
-    "eslint": "^5.3.0"
+    "eslint": "^5.3.0",
+    "stylelint-config-recommended": "^2.1.0"
   }
 }
